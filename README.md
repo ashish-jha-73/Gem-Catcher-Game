@@ -13,6 +13,13 @@
 
 ---
 
+## 🎮 Screenshot
+
+![Gem Catcher Screenshot](Screenshot%20from%202025-09-27%2019-56-19.png)
+
+
+---
+
 ## 🛠 Features
 - Randomized gem positions  
 - Incremental difficulty with speed increase  

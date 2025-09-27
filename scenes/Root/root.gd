@@ -17,7 +17,16 @@ func _ready() -> void:
 	_spawn_gem()
 
 func _process(delta: float) -> void:
-	pass
+	if Input.get_action_strength("left"):
+		$Paddle.position.x -= 550 * delta
+	if Input.get_action_strength("right"):
+		$Paddle.position.x += 550 * delta
+	
+	$Paddle.position.x = clampf(
+		$Paddle.position.x,
+		get_viewport_rect().position.x,
+		get_viewport_rect().end.x
+	)
 
 func _spawn_gem() -> void:
 	var ng: Gem = GEM.instantiate()

@@ -41,4 +41,4 @@ git clone https://github.com/ashish-jha-73/Gem-Catcher-Game.git
 
 ## 📱 Export
 
-- The game can be exported to **Windows, Linux, macOS**.
+- The game can be exported to **Windows, Linux, macOS and Android**. (Android apk is already given in Repo)

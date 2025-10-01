@@ -14,4 +14,3 @@ func _process(delta: float) -> void:
 		get_viewport_rect().position.x,
 		get_viewport_rect().end.x
 	)
-	
